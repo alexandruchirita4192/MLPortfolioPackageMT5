@@ -104,7 +104,7 @@ python train_mt5_linearsvc_calibrated_classifier.py --symbol BTCUSD --timeframe 
 If you want to change model regularization:
 
 ```bash
-python train_mt5_linearsvc_calibrated_classifier.py --symbol BTCUSD --timeframe M15 --bars 20000 --horizon-bars 12 --train-ratio 0.70 --c 1.0 --max-iter 3000 --calibration-cv 3 --output-dir output_BTCUSD_linearsvc_M15_70_custom_calibration
+python train_mt5_linearsvc_calibrated_classifier.py --symbol BTCUSD --timeframe M15 --bars 80000 --horizon-bars 12 --train-ratio 0.70 --c 1.0 --max-iter 3000 --calibration-cv 3 --output-dir output_BTCUSD_linearsvc_M15_70_custom_calibration
 ```
 
 ### Expected BTC output files
