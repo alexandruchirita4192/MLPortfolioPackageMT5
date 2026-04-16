@@ -1,4 +1,4 @@
-# MT5 Portfolio EA
+# MT5 Portfolio Version A EA
 
 This EA is a single master executor with two independent sleeves:
 
